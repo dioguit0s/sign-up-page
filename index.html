@@ -10,30 +10,34 @@
     <title>cadastro</title>
   </head>
   <body>
-    <form action="cadastrado.html">
-      <div>
-        <input required id="nome" type="text" placeholder="Nome" /> <br /><br />
+    <div class="paragrafo">
+      <h2>SE CADASTRE AGORA</h2>
+      <br />
+      <h4>E consiga acesso a (insira site e conteudo aqui)</h4>
+    </div>
+    <div class="inputs">
+      <input  id="nome" type="text" placeholder="Nome" /> <br /><br />
 
-        <input
-          required
-          id="sobrenome"
-          type="text"
-          placeholder="Sobrenome"
-        /><br /><br />
+      <input id="sobrenome"type="text"placeholder="Sobrenome" /> <br /><br />
+      <input  id="email" type="text" placeholder="Email" /> <br /><br />
+      <input  id="senha" type="text" placeholder="senha" /> <br /><br />
+      
 
-        <input
-          required
-          id="email"
-          type="text"
-          placeholder="Email"
-        /><br /><br />
+      <button id="botao" onclick="login()">Cadastre-se</button>
+      <label for="botao"></label>
+        <small>
+          ao se inscrever você concorda com os termos de serviço</small
+        ></label
+      >
+    </div>
 
-        <input required id="senha" type="text" placeholder="senha" />
-        <br /><br />
-
-        <input type="submit" />
-      </div>
-    </form>
-    <script defer src="./js/script.js"></script>
+    <script defer src="./js/scriptCadastro.js"></script>
   </body>
 </html>
+        
+        
+        
+        
+     
+
+
