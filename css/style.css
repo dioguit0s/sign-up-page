@@ -1,5 +1,6 @@
 body {
-    padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: lightgray; 
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: palevioletred;
+  background-image: url(./bg-intro-desktop.png);
 }
