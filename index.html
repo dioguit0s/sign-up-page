@@ -10,34 +10,38 @@
     <title>cadastro</title>
   </head>
   <body>
-    <div class="paragrafo">
-      <h2>SE CADASTRE AGORA</h2>
-      <br />
-      <h4>E consiga acesso a (insira site e conteudo aqui)</h4>
-    </div>
-    <div class="inputs">
-      <input  id="nome" type="text" placeholder="Nome" /> <br /><br />
+    <div class="linha">
+      <div id="anuncio" class="p50">
+        <h2>SE CADASTRE AGORA</h2>
+        <br />
+        <small>E consiga acesso a (insira site e conteudo aqui)</small>
+      </div>
+      <div class="p50">
+        <form action="cadastrado.html">
+          <div class="inputs">
+            <input required id="nome" type="text" placeholder="Nome" />
+            <br /><br />
 
-      <input id="sobrenome"type="text"placeholder="Sobrenome" /> <br /><br />
-      <input  id="email" type="text" placeholder="Email" /> <br /><br />
-      <input  id="senha" type="text" placeholder="senha" /> <br /><br />
-      
+            <input
+              required
+              id="sobrenome"
+              type="text"
+              placeholder="Sobrenome"
+            />
+            <br /><br />
+            <input required id="email" type="text" placeholder="Email" />
+            <br /><br />
+            <input required id="senha" type="text" placeholder="senha" />
+            <br /><br />
 
-      <button id="botao" onclick="login()">Cadastre-se</button>
-      <label for="botao"></label>
-        <small>
-          ao se inscrever você concorda com os termos de serviço</small
-        ></label
-      >
+            <button class="botao" onclick="login()">Cadastre-se</button>
+            <label for="botao"></label>
+          </div>
+          <small> ao se inscrever você concorda com os termos de serviço</small>
+        </form>
+      </div>
     </div>
 
     <script defer src="./js/scriptCadastro.js"></script>
   </body>
 </html>
-        
-        
-        
-        
-     
-
-

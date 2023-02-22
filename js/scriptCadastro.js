@@ -25,8 +25,12 @@ function validarEmail(email) {
 
 //funçao que recebe o nome e guarda no localStorage
 function recebeNome() {
-  var primeiroNome = document.querySelector('#nome');
-  console.log(primeiroNome);
+  var inputNome = document.querySelector('#nome');
+  var nome = String(inputNome.value);
+
+  if ((nome = null)) {
+    console.log('nome');
+  }
 }
 
 //funçao que recebe o sobrenome e guarda no localStorage
